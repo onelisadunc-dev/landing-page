@@ -5,12 +5,23 @@
   /* GLOBAL */
 
   body {
-    font-family: "roboto", sans sans-serif;
+    font-family: "roboto", sans-serif;
     color: black;
   }
   
-
+/* HEADER */ 
 #header {
-    background-color: #11F2937;
+    background-color: #1F2937;
     height: 400px;
 }
+ 
+#heroh1{
+font-family: "roboto";
+font-size: 48px;
+font-weight: bold;
+color: #f9faf8;
+} 
+
+  nav.li {
+    
+  }
