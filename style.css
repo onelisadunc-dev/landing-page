@@ -1,9 +1,9 @@
 * {
-    border: 1px;
-    border-color: brown;
-}
+    outline: 2px solid red;
+  }
+  
 
-div.header {
+#header {
     background-color: #11F2937;
     height: 400px;
 }
