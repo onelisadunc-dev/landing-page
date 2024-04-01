@@ -2,3 +2,8 @@
     border: 1px;
     border-color: brown;
 }
+
+div.header {
+    background-color: #11F2937;
+    height: 400px;
+}
