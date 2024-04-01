@@ -1,6 +1,13 @@
 * {
     outline: 2px solid red;
   }
+
+  /* GLOBAL */
+
+  body {
+    font-family: "roboto", sans sans-serif;
+    color: black;
+  }
   
 
 #header {
