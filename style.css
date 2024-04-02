@@ -5,23 +5,18 @@
   /* GLOBAL */
 
   body {
-    font-family: "roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
   }
   
 /* HEADER */ 
-.header {
-    background-color: #1F2937;
-    height: 400px;
-}
 
- /* HEADER */
  .header{
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #1f2937;
-  gap: 70px;
+  height: 300px;
 }
 
 .nav{
