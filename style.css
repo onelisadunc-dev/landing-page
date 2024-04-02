@@ -10,20 +10,75 @@
   }
   
 /* HEADER */ 
-#header {
+.header {
     background-color: #1F2937;
     height: 400px;
 }
- 
-h1#header {
-font-family: "roboto";
-font-size: 48px;
-font-weight: bold;
-color: #f9faf8;
-} 
 
-  nav li {
-	  color: white;
-	  background-color: red; /* dark blue */
-	  text-decoration: none;
-  }
+ /* HEADER */
+ .header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f2937;
+  gap: 70px;
+}
+
+.nav{
+  display: flex;
+  margin: 30px;
+  width: 1020px;
+}
+
+.nav h1{
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav a{
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: 100;
+  color: #d3d6dd;
+  text-decoration: none;
+}
+
+.headerContentWrapper{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 120px;
+}
+
+.headerMainContent{
+  max-width: 510px;
+  
+}
+
+.headerMainContent h1{
+  color: #f9faf8;
+  font-size: 46px;
+}
+
+.headerMainContent h2{
+  color: #d3d6dd;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.headerMainContent button{
+  background-color: #3882f6;
+  padding: 9px 36px;
+  color: #f9faf8;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin-top: 12px;
+}
+
+.headerSecondaryContent img{
+  width: 460px;
+}
+
