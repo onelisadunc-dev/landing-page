@@ -20,6 +20,7 @@ ul{
   gap: 15px
 }
 .logo{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 24px;
   color: #F9FAF8;
 }
